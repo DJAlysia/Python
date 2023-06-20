@@ -27,3 +27,4 @@ n = 200
 result = m if (m - n) > 0 else n
 print('result : {}'.format(result))
 
+# 16~19번 예제 이어서...

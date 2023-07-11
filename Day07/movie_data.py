@@ -55,7 +55,7 @@ def insertMovie( title, point, rate, date ):
         print("MySQL Error : ", e)                
                 
     finally:
-        connection.close()
+        pass
 # insertMovie 함수 끝                
                 
 titles = movie_info[0]                
@@ -72,8 +72,5 @@ for i in range( len(titles) ):
     date = dates[i]         # 23.01.01    
     insertMovie( title, point, rate, date )    
             
-                
-                
-                
-                
-                
+            
+connection.close()
